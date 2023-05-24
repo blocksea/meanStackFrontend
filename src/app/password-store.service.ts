@@ -10,7 +10,7 @@ export class PasswordService {
   getPassword(id: number) {
     throw new Error('Method not implemented.');
   }
-  private apiUrl = 'https://password-manager-d3bj.onrender.com'; // Represents the API endpoint for passwords
+  private apiUrl = 'https://password-manager-d3bj.onrender.com/passwords'; // Represents the API endpoint for passwords
 
   constructor(private http: HttpClient) { }
 
